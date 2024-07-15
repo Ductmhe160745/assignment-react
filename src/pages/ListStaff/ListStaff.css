@@ -1,0 +1,67 @@
+.users-table table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  line-height: 1.4;
+  letter-spacing: -0.3px;
+  color: #767676;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.users-table-info {
+  line-height: 1.4;
+  letter-spacing: -0.3px;
+  color: #767676;
+  height: 48px;
+  border-bottom: 1.2px solid #dadbe4;
+  font-size: 14px;
+}
+
+.users-table-info th {
+  font-weight: 500;
+}
+
+.users-table td {
+  background-color: #fff;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.users-table td:first-child {
+  padding-left: 20px;
+}
+
+.users-table th:first-child {
+  padding-left: 20px;
+}
+
+.users-table tbody {
+  font-size: 14px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.table-wrapper h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.table-wrapper table {
+  min-width: 850px;
+}
+
+.table-wrapper table.posts-table {
+  min-width: 944px;
+}
+
+.table-wrapper table.library-table {
+  min-width: 483px;
+}

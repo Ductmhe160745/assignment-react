@@ -1,0 +1,82 @@
+.profile-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.profile-wrapper {
+  width: 100%;
+  min-height: 200px;
+  background-color: white; /* Optional: for contrast */
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.account-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.account-label {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.account-detail {
+  border: 1px solid rgba(0, 0, 0, 0.55);
+  font-size: 16px;
+  font-weight: 200;
+  height: 42px;
+  line-height: 35px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.update-account-success {
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 25px;
+  min-height: 22px;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  max-width: 85%;
+  background: url(https://d3njjcbhbojbot.cloudfront.net/web/images/account-settings/success_circle.svg)
+    no-repeat;
+  color: #1f8354;
+  background-position-x: left;
+  background-position-y: top;
+}
+
+.account-nav-list {
+  list-style-type: none;
+}
+
+.account-nav-item {
+  padding: 20px 10px;
+}
+
+.account-nav-item:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: rgb(129, 129, 246);
+}

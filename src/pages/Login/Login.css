@@ -1,0 +1,54 @@
+.login-wrapper {
+  height: 900px;
+  background-color: #eeeeee;
+}
+
+.form-login-wrapper {
+  margin: 60px 40px;
+  height: 600px;
+  background-color: #fff;
+}
+
+.info {
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    62deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(65, 159, 163, 1) 40%,
+    rgba(30, 187, 212, 1) 74%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.form-input-login {
+  height: calc(2.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(65, 159, 163, 1) 40%,
+    rgba(30, 187, 212, 1) 74%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.forget-password-link {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.forget-password-link:hover span {
+  color: blue;
+}

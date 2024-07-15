@@ -1,0 +1,95 @@
+.register-wrapper {
+  padding: 30px 0;
+  min-height: 1000px;
+  background-image: url("../../../public/images/backgroundmotor.jpg"); /* Thay thế link_to_your_image.jpg bằng URL của ảnh bạn muốn sử dụng */
+  background-size: cover;
+  background-position: center;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.input-group input {
+  outline: none;
+  margin: 0;
+  border: none;
+  width: 100%;
+}
+.label {
+  font-size: 16px;
+  color: #555;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input--style-4 {
+  line-height: 50px;
+  background: #fafafa;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+  transition: all 0.4s ease;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.radio-group input[type="radio"] {
+  display: none;
+}
+.radio-group label {
+  position: relative;
+  padding-left: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  user-select: none;
+}
+.radio-group label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  background-color: white;
+  transition: background-color 0.3s;
+}
+.radio-group input[type="radio"]:checked + label::before {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.radio-group input[type="radio"]:checked + label::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.radio-group label:hover::before {
+  background-color: #e6f0ff;
+}
+
+.register-btn {
+  padding: 16px 36px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+}

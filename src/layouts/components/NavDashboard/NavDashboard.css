@@ -1,0 +1,89 @@
+.bg-custom {
+  background: rgb(5, 96, 116);
+  background: linear-gradient(
+    0deg,
+    rgba(5, 96, 116, 1) 0%,
+    rgba(65, 159, 163, 1) 100%
+  );
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activeDash {
+  border-left: 5px solid #ccc;
+  background-color: #e9e9e9;
+}
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s;
+  overflow: hidden;
+}
+.sidebar.collapsed {
+  width: 0;
+}
+
+.sidebar.collapsed a {
+  display: none;
+}
+
+.openbtn {
+  position: fixed;
+  top: 70px;
+  left: 15px;
+  z-index: 9999;
+  display: none;
+}
+
+.openbtn:hover {
+  transform: scale(1.1);
+}
+
+.openbtn.visible {
+  display: block;
+}
+#main-content {
+  transition: margin-left 0.3s;
+  margin-left: 250px;
+}
+
+.sidebar .nav-link {
+  font-size: 20px; /* Tăng kích thước font */
+}
+
+.sidebar .nav-link i {
+  font-size: 1.25rem; /* Tăng kích thước font của các biểu tượng */
+}
+
+.sidebar .dropdown-toggle {
+  font-size: 1.25rem; /* Tăng kích thước font của dropdown toggle */
+}
+
+.navdash-link {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  justify-content: start;
+  align-items: center;
+  color: #616161;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.sidebar .nav-link {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.nav-icon {
+  font-size: 14px;
+  margin-right: 5px;
+}

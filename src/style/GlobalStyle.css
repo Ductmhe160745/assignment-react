@@ -1,0 +1,24 @@
+@import "normalize.css";
+
+:root {
+  /* Add your CSS variables here if needed */
+  --primary-color: #0866ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px for easier rem calculations */
+}
+
+body {
+  font-family: "FacebookSansRegular", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+  overflow-y: overlay;
+}

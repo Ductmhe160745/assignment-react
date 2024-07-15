@@ -1,0 +1,277 @@
+{
+  "Users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "firstName": "Nguyen",
+      "lastName": "Van A",
+      "role": "admin",
+      "gender": "male",
+      "email": "nguyenvana@example.com",
+      "phone": "0912345678",
+      "dob": "1985-02-02",
+      "address": "123 Le Loi, Ho Chi Minh City",
+      "image": "",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "username": "tranbinh",
+      "password": "123",
+      "firstName": "Tran",
+      "lastName": "Binh B",
+      "role": "staff",
+      "gender": "male",
+      "email": "tranbinhb@example.com",
+      "phone": "0987654321",
+      "dob": "1990-02-20",
+      "address": "456 Tran Hung Dao, Hanoi",
+      "image": "",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "username": "duc",
+      "password": "123",
+      "firstName": "Trần ",
+      "lastName": "Đức",
+      "role": "customer",
+      "gender": "male",
+      "email": "ductmhe160745@fpt.edu.vn",
+      "phone": "0123456789",
+      "dob": "2002-02-01",
+      "address": "Trần Cao, Phù Cừ, Hưng Yên",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAuRXhpZgAATU0AKgAAAAgAAkAAAAMAAAABAC8AAEABAAEAAAABAAAAAAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAF7AdoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2WiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoyB+NFMkjWTG4Zx0oAeSB1IFNcnYdgBbHANR/ZY8EHcQx5BJP+etH2WP8A2vzoAPMm5xEPY7qQSyZ/1Y5PHzCo/LCkYhl+U8YbrRtUEEQPkc9aAJGklydiKQD1zS75v+eYx35qAAYY+RICx2kA04RjgNDIP+BZoAlEkuQDGOepB/z7VNVVY/nX91IAMdW4FWqACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAEPFcddeM7q3vJ4RaxERyMgJY84OK7E9K8t1H/kKXf/XZ/wD0I135fRhVk1NXscWNqTppOLsbv/Cc3f8Az6Q/99Gj/hObv/n0h/76NczRXq/UqH8p5/1qt/MdN/wnN3/z6Q/99Gl/4Ti7/wCfSH/vo1zVGKX1Kh/KH1qt3Ol/4Ti7/wCfSH/vo0f8Jvd/8+kP/fRrm6KPqVD+Uf1qt/MdL/wm93/z6Q/99Gj/AITa7/59If8Avo1zVLij6lQ/lD61V/mOk/4Te6/59Yf++jS/8Jtdf8+sP/fRrmsUuKX1Oh/KH1qt3Ok/4Ta6/wCfWH/vo0f8Jtdf8+sP/fRrnMUYo+p0P5Q+tVu50n/Ca3X/AD6w/wDfRo/4TW6/59Yf++jXOYoxS+p0P5Q+tVu50sXjK5eZFNtCFZgCdx4ya6yKVJow8bB1PQqcivLZR+5f/dP8q7LwAAPB9nj/AG+n++a4MdhoU4qcNDswdec21J3OkooorzT0AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAEPQ15dqP/ACFbv/rs/wD6Ea9RPQ15fqP/ACE7v/rs/wD6Ea9TK/jl6Hn5h8KK2KWilr2jyxKKXFLilcBKMUuKdii4DcUu2nYoxSuAmKXFLijFK4CYpdtLijFFwDFGKXFLilcCOX/Uyf7p/lXY+AP+ROsvq/8A6Ga5CUfuZP8AdP8A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",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "username": "toan",
+      "password": "tw6qaD",
+      "firstName": "Phan Đức",
+      "lastName": "Toàn",
+      "role": "customer",
+      "gender": "female",
+      "email": "tranminhducpchy@gmail.com",
+      "phone": "0869631814",
+      "dob": "2002-06-04",
+      "address": "Hung Yen",
+      "status": "active",
+      "image": ""
+    }
+  ],
+  "Agencies": [
+    {
+      "id": "1",
+      "AgencyName": "Ho Chi Minh Agency",
+      "AgencyAddress": "789 Nguyen Trai, Ho Chi Minh City",
+      "HotLine": "02812345678",
+      "Worktime": "08:00 - 17:00",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "AgencyName": "Hanoi Agency",
+      "AgencyAddress": "123 Hai Ba Trung, Hanoi",
+      "HotLine": "02412345678",
+      "Worktime": "08:00 - 17:00",
+      "status": "active"
+    }
+  ],
+  "Registration": [
+    {
+      "id": "1",
+      "firstName": "Tran",
+      "lastName": "Binh B",
+      "identify": "023423423",
+      "address": "456 Tran Hung Dao, Hanoi",
+      "engine": "C43E-1777199",
+      "chassis": "4316BY208444",
+      "plate": "89G1-011-93"
+    },
+    {
+      "id": "2",
+      "firstName": "Trần ",
+      "lastName": "Đức",
+      "identify": "102341231242",
+      "address": "Xã Hà Mãn, Huyện Thuận Thành, Tỉnh Bắc Ninh",
+      "engine": "2131",
+      "chassis": "12321",
+      "plate": "89A-1232421"
+    },
+    {
+      "id": "3",
+      "firstName": "Nguyễn Nhật ",
+      "lastName": "Hoài",
+      "identify": "102341231242",
+      "address": "Hung Yen",
+      "engine": "2131",
+      "chassis": "12321",
+      "plate": "89A123456"
+    },
+    {
+      "id": "4",
+      "firstName": "Trần ",
+      "lastName": "Đức",
+      "identify": "102341231242",
+      "address": "Trần Cao, Phù Cừ, Hưng Yên",
+      "engine": "213112",
+      "chassis": "1232112",
+      "plate": "89A123454"
+    },
+    {
+      "id": "5",
+      "firstName": "Trần ",
+      "lastName": "Đức",
+      "identify": "102341231242",
+      "address": "Trần Cao, Phù Cừ, Hưng Yên",
+      "engine": "2131",
+      "chassis": "12321",
+      "plate": "89A123456"
+    },
+    {
+      "id": "6",
+      "firstName": "Trần ",
+      "lastName": "Đức",
+      "identify": "102341231242",
+      "address": "Trần Cao, Phù Cừ, Hưng Yên",
+      "engine": "2131123211",
+      "chassis": "1232112321",
+      "plate": "29A123421"
+    }
+  ],
+  "Vehicles": [
+    {
+      "id": "1",
+      "name": "Xe mô tô 2 bánh dung tích từ 50cc trở xuống",
+      "price": 60000
+    },
+    {
+      "id": "2",
+      "name": "Xe mô tô 2 bánh dung tích trên 50cc",
+      "price": 66000
+    },
+    {
+      "id": "3",
+      "name": "Xe máy điện",
+      "price": 60000
+    },
+    {
+      "id": "4",
+      "name": "Mô tô 3 bánh",
+      "price": 319000
+    },
+    {
+      "id": "5",
+      "name": "Các loại xe còn lại",
+      "price": 319000
+    }
+  ],
+  "Contracts": [
+    {
+      "id": "1",
+      "CustomerId": "4",
+      "VehicleRegistration": "2",
+      "VehicleId": "2",
+      "Code": "1235210412",
+      "StartDate": "24/6/2024",
+      "EndDate": "24/6/2024",
+      "Payment": 198000
+    },
+    {
+      "id": "2",
+      "CustomerId": "4",
+      "VehicleRegistration": "3",
+      "VehicleId": "2",
+      "Code": "1421210412",
+      "StartDate": "4/7/2024",
+      "EndDate": "04/07/2027",
+      "Payment": 198000
+    },
+    {
+      "id": "3",
+      "CustomerId": "3",
+      "VehicleRegistration": "5",
+      "VehicleId": "2",
+      "Code": "8787651087",
+      "StartDate": "12/7/2024",
+      "EndDate": "12/07/2025",
+      "Payment": 66000
+    },
+    {
+      "id": "4",
+      "CustomerId": "3",
+      "VehicleRegistration": "6",
+      "VehicleId": "3",
+      "Code": "5775312738",
+      "StartDate": "12/7/2024",
+      "EndDate": "12/07/2026",
+      "Payment": 120000
+    }
+  ],
+  "Compensations": [
+    {
+      "id": "1",
+      "accidentId": "1",
+      "contractId": "3",
+      "customerId": "3",
+      "dateFiled": "12/7/2024",
+      "dateApproved": "12/7/2024",
+      "notes": "Từ chối nhé haha",
+      "claimStatus": "rejected"
+    },
+    {
+      "id": "2",
+      "accidentId": "2",
+      "contractId": "1",
+      "customerId": "3",
+      "dateFiled": "13/7/2024",
+      "dateApproved": "14/7/2024",
+      "notes": "Đồng ý he",
+      "claimStatus": "approved"
+    },
+    {
+      "id": "3",
+      "accidentId": "3",
+      "contractId": "1",
+      "customerId": "3",
+      "dateFiled": "13/7/2024",
+      "dateApproved": "14/7/2024",
+      "notes": "Ok nhé",
+      "claimStatus": "approved"
+    }
+  ],
+  "Accident": [
+    {
+      "id": "1",
+      "customerId": "3",
+      "dateOfAccident": "12/7/2024",
+      "accidentLocation": "Hà Nội",
+      "policeReportNumber": "Ab12321",
+      "descriptionOfAccident": "Tai nạn",
+      "vehicleDamage": "tai nạn",
+      "estimatedRepairCost": 1000000
+    },
+    {
+      "id": "2",
+      "customerId": "3",
+      "dateOfAccident": "24-07-2024",
+      "accidentLocation": "12",
+      "policeReportNumber": "AB1234",
+      "descriptionOfAccident": "12",
+      "vehicleDamage": "HƯ hại",
+      "estimatedRepairCost": 12
+    },
+    {
+      "id": "3",
+      "customerId": "3",
+      "dateOfAccident": "10-07-2024",
+      "accidentLocation": "Hưng Yên",
+      "policeReportNumber": "AB1234",
+      "descriptionOfAccident": "haha",
+      "vehicleDamage": "Vỡ đầu xe",
+      "estimatedRepairCost": 100000
+    }
+  ]
+}
